@@ -30,6 +30,5 @@ mas_experimentado(Piloto1, Piloto2) :- piloto(Piloto1,_,GP1,_,_,_), piloto(Pilot
 %---------
 
 % R3
-mas_de_n_podios(Piloto, N) :- piloto(Piloto,_,_,_,Podios,_), N>Podios.
+mas_de_n_podios(Piloto, N) :- piloto(Piloto,_,_,_,Podios,_), Podios>N.
 
-% aaa
